@@ -164,10 +164,6 @@ header {
     font-size: 14px;
 }
 
-.banner {
-    margin-bottom: 5%;
-}
-
 .box1 {
     background-color: #008183;
 }
@@ -210,6 +206,7 @@ header {
 
 .title {
     font-size: 25px;
+    margin-top: 5%;
 }
 
 hr {
@@ -222,7 +219,59 @@ hr {
     padding: 2%;
 }
 
+.flexbox {
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content:space-between;
+    margin-bottom:5%;
+}
+
 .flexcontainer {
-    display: flex;
-    flex-wrap: wrap;
+    display:flex;
+    flex-direction:column;
+    padding:2%;
+    width:400px;
+}
+
+.flexcontainer:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 100%; /* Change this to whatever width you want. */
+    padding-top: 20px; /* This creates some space between the element and the border. */
+    border-bottom: 1px dashed black; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.button {
+    text-align:center;
+    border: 1.5px solid black;
+    background-color:white;
+    margin-top:5%;
+    padding:3%;
+    width:40%;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color:black;
+    color:white;
+}
+
+.flexcontainer2 {
+    display:flex;
+    flex-direction:column;
+    padding:2%;
+    margin-top:-7%;
+}
+
+header nav a:hover {
+    text-decoration:underline;
+}
+
+.banner {
+    margin-bottom: 4%;
+}
+
+body {
+    font-weight: 600;
 }
