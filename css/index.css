@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -167,4 +166,44 @@ header {
 
 .banner {
     margin-bottom: 5%;
+}
+
+.box1 {
+    background-color: #008183;
+}
+
+.box2 {
+    background-color: #FFD600;
+}
+
+.box3 {
+    background-color: #5D9EA2;
+}
+
+.box4 {
+    background-color: #FF7F53;
+}
+
+.box5 {
+    background-color: #D9153D;
+}
+
+.box6 {
+    background-color: #238C24;
+}
+
+.box7 {
+    background-color: #9E33C7;
+}
+
+.box8 {
+    background-color: #FF67B5;
+}
+
+.box9 {
+    background-color: #4A008B;
+}
+
+.box10 {
+    background-color: #1896FF;
 }
