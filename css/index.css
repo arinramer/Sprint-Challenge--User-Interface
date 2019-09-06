@@ -207,3 +207,22 @@ header {
 .box10 {
     background-color: #1896FF;
 }
+
+.title {
+    font-size: 25px;
+}
+
+hr {
+    border: .8px dashed black;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.aboutsection {
+    padding: 2%;
+}
+
+.flexcontainer {
+    display: flex;
+    flex-wrap: wrap;
+}
