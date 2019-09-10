@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +142,136 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    margin-right: 65px;
+}
+
+header nav {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+header {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    font-size: 14px;
+}
+
+.box1 {
+    background-color: #008183;
+}
+
+.box2 {
+    background-color: #FFD600;
+}
+
+.box3 {
+    background-color: #5D9EA2;
+}
+
+.box4 {
+    background-color: #FF7F53;
+}
+
+.box5 {
+    background-color: #D9153D;
+}
+
+.box6 {
+    background-color: #238C24;
+}
+
+.box7 {
+    background-color: #9E33C7;
+}
+
+.box8 {
+    background-color: #FF67B5;
+}
+
+.box9 {
+    background-color: #4A008B;
+}
+
+.box10 {
+    background-color: #1896FF;
+}
+
+.title {
+    font-size: 25px;
+    margin-top: 5%;
+}
+
+hr {
+    border: .8px dashed black;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.aboutsection {
+    padding: 2%;
+}
+
+.flexbox {
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content:space-between;
+    margin-bottom:5%;
+}
+
+.flexcontainer {
+    display:flex;
+    flex-direction:column;
+    padding:2%;
+    width:400px;
+}
+
+.flexcontainer:after {
+    content: ""; 
+    display: block; 
+    margin: 0 auto; 
+    width: 100%; 
+    padding-top: 20px; 
+    border-bottom: 1px dashed black; 
+}
+
+.button {
+    text-align:center;
+    border: 1.5px solid black;
+    background-color:white;
+    margin-top:5%;
+    padding:3%;
+    width:40%;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color:black;
+    color:white;
+}
+
+.flexcontainer2 {
+    display:flex;
+    flex-direction:column;
+    padding:2%;
+    margin-top:-7%;
+}
+
+header nav a:hover {
+    text-decoration:underline;
+}
+
+.banner {
+    margin-bottom: 4%;
+}
+
+body {
+    font-weight: 600;
 }
